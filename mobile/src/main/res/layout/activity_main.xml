@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manjubs.blinkeffect.MainActivity">
+
+    <TextView
+        android:id="@+id/txtBlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animation : Blinking Effect"
+        android:textSize="22dp"
+        android:layout_above="@+id/btnStart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="115dp" />
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Animation !"
+        tools:layout_editor_absoluteY="92dp"
+        tools:layout_editor_absoluteX="59dp"
+        android:layout_marginBottom="197dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
